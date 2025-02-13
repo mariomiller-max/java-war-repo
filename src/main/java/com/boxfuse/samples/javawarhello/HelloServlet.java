@@ -10,8 +10,6 @@ import javax.servlet.http.HttpServlet;
 
 
 
-
-
 @WebServlet(urlPatterns = "/hello", loadOnStartup = 1)
 public class HelloServlet extends HttpServlet {
     @Override
